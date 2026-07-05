@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harsh Kumar Mishra | Software Developer</title>
+  <meta name="description" content="Software Developer skilled in JavaScript, Java, NodeJS, Express, and ReactJS — Varanasi, India." />
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">HKM</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-blob hero-blob-1"></div>
+    <div class="hero-blob hero-blob-2"></div>
+    <div class="container hero-inner">
+      <div class="hero-avatar" id="heroAvatar"></div>
+      <div class="hero-text">
+        <p class="hero-tag">Portfolio</p>
+        <h1 class="hero-name" id="heroName"></h1>
+        <p class="hero-title" id="heroTitle"></p>
+        <p class="hero-bio" id="heroBio"></p>
+        <div class="hero-contact" id="heroContact"></div>
+        <div class="hero-actions" id="heroActions"></div>
+      </div>
+    </div>
+    <div class="container hero-stats" id="heroStats"></div>
+  </section>
+
+  <!-- ABOUT / SUMMARY -->
+  <section id="about" class="section section-white">
+    <div class="container">
+      <div class="section-header">
+        <h2>About Me</h2>
+        <p>A quick snapshot of who I am</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-card reveal" id="aboutSummary"></div>
+        <div class="about-info reveal" id="aboutInfo"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <h2>Technical Skills</h2>
+        <p>Languages, frameworks, and tools I work with</p>
+      </div>
+      <div id="skillsContent"></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section section-white">
+    <div class="container">
+      <div class="section-header">
+        <h2>Projects</h2>
+        <p>A showcase of work built with passion and purpose</p>
+      </div>
+      <div class="projects-grid" id="projectsGrid"></div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <h2>Education</h2>
+        <p>Academic qualifications and credentials</p>
+      </div>
+      <div class="edu-list" id="eduList"></div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements" class="section section-white">
+    <div class="container">
+      <div class="section-header">
+        <h2>Achievements</h2>
+        <p>Certifications, badges, and milestones</p>
+      </div>
+      <div class="ach-grid" id="achGrid"></div>
+    </div>
+  </section>
+
+  <!-- HOBBIES -->
+  <section id="hobbies" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <h2>Hobbies &amp; Interests</h2>
+        <p>Beyond the code — what drives and inspires me</p>
+      </div>
+      <div class="hobbies-grid" id="hobbiesGrid"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT / FOOTER -->
+  <footer id="contact">
+    <div class="container footer-inner" id="footerContent"></div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p id="footerCopy"></p>
+        <p class="footer-built">Built with HTML, CSS &amp; JavaScript · Hosted on GitHub Pages</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="./script.js"></script>
+</body>
+</html>
